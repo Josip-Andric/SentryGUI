@@ -17,3 +17,7 @@ Instructions for setting up the system and GUI will be added here.
 
 ## Usage
 Details about how to use the GUI and control the sentry will be provided here.
+
+## STL Files on Printables
+![Printables](URL)
+
