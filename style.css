@@ -1,0 +1,87 @@
+body{
+    background-image: url(background.jpg);
+    background-size: contain;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: aliceblue;
+
+}
+.Stream{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.camera_controls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+    width: fit-content; /* prilagodite po potrebi */
+    margin: auto; 
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+.camera_controls button {
+    padding: 10px;
+    border: none;
+    background-color: #0a5d08;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.sentry_controls{
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+}
+.sentry_controls button {
+    padding: 5px;
+    border: none;
+    height: 50px;
+    background-color: #0a5d08;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.sentry_controls .up { grid-column: 2; grid-row: 1; }
+.sentry_controls .left { grid-column: 1; grid-row: 2; }
+.sentry_controls .right { grid-column: 3; grid-row: 2; }
+.sentry_controls .down { grid-column: 2; grid-row: 3; }
+
+.stream_controls{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.stream_controls button{
+    padding: 5px;
+    border: 20px;
+    margin-left: 10px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+.stream_controls .on{ background-color: #004886; }
+.stream_controls .off{ background-color: #9f0505;}
