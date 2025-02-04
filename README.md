@@ -19,5 +19,5 @@ Instructions for setting up the system and GUI will be added here.
 Details about how to use the GUI and control the sentry will be provided here.
 
 ## STL Files on Printables
-![Printables](URL)
+![Printables](https://www.printables.com/model/1177537-camera-module-3-sentry/files)
 
