@@ -68,7 +68,8 @@ h1{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
+    margin-bottom: 50px;
    
 }
 
@@ -84,5 +85,5 @@ h1{
     transition: background-color 0.3s;
 
 }
-.stream_controls .on{ background-color: #004886; }
+.stream_controls .on{ margin-right: 200px;background-color: #004886; }
 .stream_controls .off{ background-color: #9f0505;}
