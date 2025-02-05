@@ -5,7 +5,7 @@ This project features a graphical user interface (GUI) that controls a camera se
 The main goal of this project is to provide a compact, efficient, and user-friendly interface for remotely monitoring and controlling the sentry. It allows for both manual control and automation based on user-defined parameters.
 
 ## Features:
-- **Custom 3D printed sentry** for a unique design and flexibility. [Printables](https://www.printables.com/model/1177537-camera-module-3-sentry)
+- **Custom 3D printed sentry** for a unique design and flexibility. [STL FILES](https://www.printables.com/model/1177537-camera-module-3-sentry)
 - **Raspberry Pi 3B+** as the central processing unit.
 - **Dual servos (Tower Pro SG90)** for smooth and accurate movement.
 - **Real-time video streaming** from the camera.
