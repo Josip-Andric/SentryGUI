@@ -10,7 +10,7 @@ The main goal of this project is to provide a compact, efficient, and user-frien
 - **Dual servos (Tower Pro SG90)** for smooth and accurate movement.
 - **Real-time video streaming** from the camera.
 
-![Sentry System](./Screenshot.png)
+![Control System](./static/images/Screenshot.png)
 
 ## Installation
 Instructions for setting up the system and GUI will be added here.
@@ -19,5 +19,7 @@ Instructions for setting up the system and GUI will be added here.
 Details about how to use the GUI and control the sentry will be provided here.
 
 ## STL Files on Printables
+
+![Sentry System](./static/images/sentry.jpeg)
 [Printables](https://www.printables.com/model/1177537-camera-module-3-sentry)
 
