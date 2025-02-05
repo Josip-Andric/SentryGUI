@@ -2,7 +2,7 @@
 <html lang="hr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camera Stream</title>
 </head>
@@ -34,11 +34,11 @@
 <br>
     <div class="stream_controls">
 
-    <form action="/run_stream" method="post">
+    <form action="/start" method="GET", "POST">
         <button class= "on" type="submit">Stream ON</button>
     </form>
 
-    <form action="/kill_stream" method="post">
+    <form action="/kill_stream" method="POST">
         <button class= "off" type="submit">Stream OFF</button>
     </form>
 
